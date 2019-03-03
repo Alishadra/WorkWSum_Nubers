@@ -1,8 +1,6 @@
 package org.sumNumbersTest;
 
-import static org.junit.Assert;
 import static org.junit.Assert.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -14,7 +12,7 @@ public class SumNumbersTest {
 	public void getSumNumbersByChars() {
 
 		SumNumbers sumNumbers = new SumNumbers ();
-		int result = sumNumbers.getSumNumbersByChars();
+		int result = sumNumbers.getSumNumbersByChars(12345);
 		
 		assertEquals(15,result);
 
@@ -25,7 +23,7 @@ public class SumNumbersTest {
 
 		SumNumbers sumNumbers = new SumNumbers ();
 		
-		int result = sumNumbers.getSumNumbersByDivision();
+		int result = sumNumbers.getSumNumbersByDivision(12345);
 		
 		assertEquals(15,result);
 

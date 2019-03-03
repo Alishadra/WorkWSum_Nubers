@@ -16,7 +16,7 @@ public class SumNumbers {
 		logger.info(String.valueOf(getSumNumbersByChars(outNum)));
 	
 	}
-	protected static int getSumNumbersByChars(int outNum) {
+	public static int getSumNumbersByChars(int outNum) {
 
 		String numb = String.valueOf(outNum);
 		
@@ -34,7 +34,7 @@ public class SumNumbers {
 		return result;
 	}
 	
-	protected static int getSumNumbersByDivision(int outNum) {
+	public static int getSumNumbersByDivision(int outNum) {
 
 		int sum = 0;
 		
